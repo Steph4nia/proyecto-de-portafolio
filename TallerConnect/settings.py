@@ -14,6 +14,7 @@ from pathlib import Path
 import os
 from dotenv import load_dotenv
 
+
 # --- Cargar archivo .env ---
 BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(BASE_DIR / ".env")
@@ -37,7 +38,6 @@ INSTALLED_APPS = [
     "management",
     "widget_tweaks",
     "crispy_forms",
-    "crispy_bootstrap5",
     ]
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
